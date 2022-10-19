@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/js/main.js"></script>
+    <title>Cotizacion</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<div class="contenedor">
+<body>
+    <header>
+        <h2>Cotizar Automovil</h2>
+    </header>
+    <div id="cotizador">
+        <br>
+        <br>
+        <br>
+        <div id="e1" >
+            <center>
+            <label for="">Valor del automovil:</label>
+            <input style="width: 100px ; float: right; margin-right: 1em;" type="text" id="valor" name="valor">
+            <br>
+            <br>
+            <label for="">Enganche:</label>
+            <input style="width: 100px ; float: right; margin-right: 1em; " type="text" id="enganche" name="enganche">
+            <br>
+            <br>
+            <label for="">Total a financiar:</label>
+            <input style="width: 100px ; float: right; margin-right: 1em; " type="text" name="total" id="total">
+        </center>
+        </div>
+        
+        <div id="e2" >
+            <h3>Planes de credito</h3>
+            <select name="planes" id="planes">
+                <option value="12">12 Meses</option>
+                <option value="18">18 Meses</option>
+                <option value="24">24 Meses</option>
+                <option value="36">36 Meses</option>
+                <option value="48">48 Meses</option>
+            </select>
+            <br>
+            <label for="">Pago Mensual:</label>
+            <input type="text" name="Pago" id="Pago">
+        </div>
+        <br>
+        <br>
+        <br>    
+            <br>
+        <button id="btncalcular" onclick="cotizar()">Calcular</button>
+        <button id="btnlimpiar" onclick="limpiar()">Limpiar</button>
+    </div>
+    
+</body>
+</div>
+</html>
