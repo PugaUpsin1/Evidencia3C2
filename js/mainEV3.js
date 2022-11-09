@@ -47,8 +47,8 @@ function cotizar(){
 
 function limpiar(){
     document.getElementById('valor').value="";
-    document.getElementById('total').value ="";
-    document.getElementById('Pago').value =""; 
-    document.getElementById('planes').value ="";
-    document.getElementById('enganche').value="";
+    document.getElementById('txtEnganche').value ="";
+    document.getElementById('txtFinanciar').value =""; 
+    document.getElementById('txtPago').value ="";
+    document.getElementById('planes').value="";
 }
